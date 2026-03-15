@@ -1,3 +1,26 @@
+/* Hide bullet points and style participants list */
+.participants-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.delete-icon {
+  margin-left: 8px;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a31515;
+}
 * {
   box-sizing: border-box;
   margin: 0;
